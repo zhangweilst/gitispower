@@ -5,6 +5,11 @@ void println(char *str)
 	printf("%s\n", str);
 }
 
+void printint(int i)
+{
+	printf("%d\n", i);
+}
+
 int main()
 {
 	printf("hello world\n");
@@ -12,3 +17,4 @@ int main()
 	printf("nice to meet you\n");
 	printf("oops\n");
 }
+
