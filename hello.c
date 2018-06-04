@@ -10,6 +10,11 @@ void printint(int i)
 	printf("%d\n", i);
 }
 
+void printdouble(double i)
+{
+	printf("%lf\n", i);
+}
+
 int main()
 {
 	printf("hello world\n");
